@@ -1,0 +1,413 @@
+[debug] [2025-01-20T14:15:16.985Z] ----------------------------------------------------------------------
+[debug] [2025-01-20T14:15:16.988Z] Command:       /nix/store/if6aqyl3sl0hz14a12mndj35swb1mcwi-nodejs-20.17.0/bin/node /home/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase emulators:start --project test-data-connect-8c4fb
+[debug] [2025-01-20T14:15:16.988Z] CLI Version:   13.29.1
+[debug] [2025-01-20T14:15:16.988Z] Platform:      linux
+[debug] [2025-01-20T14:15:16.988Z] Node Version:  v20.17.0
+[debug] [2025-01-20T14:15:16.989Z] Time:          Mon Jan 20 2025 14:15:16 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-01-20T14:15:16.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-20T14:15:16.992Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-01-20T14:15:17.192Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-20T14:15:17.193Z] > authorizing via signed-in user (markgoho@gmail.com)
+[info] i  emulators: Starting emulators: auth, hosting, dataconnect {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, hosting, dataconnect"}}
+[warn] ⚠  hub: Error when trying to check port 4400 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4400 {"metadata":{"emulator":{"name":"hub"},"message":"Error when trying to check port 4400 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4400"}}
+[warn] ⚠  hub: Port 4400 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"hub"},"message":"Port 4400 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  hub: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"hub"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  ui: Error when trying to check port 4000 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4000 {"metadata":{"emulator":{"name":"ui"},"message":"Error when trying to check port 4000 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4000"}}
+[warn] ⚠  ui: Port 4000 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"ui"},"message":"Port 4000 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  ui: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"ui"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  logging: Error when trying to check port 4500 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4500 {"metadata":{"emulator":{"name":"logging"},"message":"Error when trying to check port 4500 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4500"}}
+[warn] ⚠  logging: Port 4500 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"logging"},"message":"Port 4500 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  logging: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"logging"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  auth: Error when trying to check port 9099 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:9099 {"metadata":{"emulator":{"name":"auth"},"message":"Error when trying to check port 9099 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:9099"}}
+[warn] ⚠  auth: Port 9099 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"auth"},"message":"Port 9099 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  auth: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"auth"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  hosting: Error when trying to check port 5059 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:5059 {"metadata":{"emulator":{"name":"hosting"},"message":"Error when trying to check port 5059 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:5059"}}
+[warn] ⚠  hosting: Port 5059 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"hosting"},"message":"Port 5059 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  hosting: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"hosting"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  dataconnect: Error when trying to check port 9399 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:9399 {"metadata":{"emulator":{"name":"dataconnect"},"message":"Error when trying to check port 9399 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:9399"}}
+[warn] ⚠  dataconnect: Port 9399 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"dataconnect"},"message":"Port 9399 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  dataconnect: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"dataconnect"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[warn] ⚠  dataconnect.postgres: Error when trying to check port 5432 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:5432 {"metadata":{"emulator":{"name":"dataconnect"},"message":"Error when trying to check port 5432 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:5432"}}
+[warn] ⚠  dataconnect: Port 5432 is available on 127.0.0.1 but not ::1. This may cause issues with some clients. {"metadata":{"emulator":{"name":"dataconnect"},"message":"Port 5432 is available on 127.0.0.1 but not ::1. This may cause issues with some clients."}}
+[warn] ⚠  dataconnect: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json {"metadata":{"emulator":{"name":"dataconnect"},"message":"If you encounter connectivity issues, consider switching to a different port or explicitly specifying \u001b[33m\"host\": \"<ip address>\"\u001b[39m instead of hostname in firebase.json"}}
+[debug] [2025-01-20T14:15:17.219Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5059}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5432}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-01-20T14:15:17.226Z] [hub] writing locator at /tmp/hub-test-data-connect-8c4fb.json
+[debug] [2025-01-20T14:15:28.539Z] I0120 14:15:28.524415    2626 control.go:45] [engine.Service /emulator/your-service-id f5d2] UpdateSchema(): done sources: schema/schema.gql [1566B] 
+I0120 14:15:28.536805    2626 control.go:73] [engine.Service /emulator/your-service-id f5d2] UpdateConnector(movie-connector): done sources: movie-connector/mutations.gql [2253B] movie-connector/queries.gql [3733B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.524415    2626 control.go:45] [engine.Service /emulator/your-service-id f5d2] UpdateSchema(): done sources: schema/schema.gql [1566B] \nI0120 14:15:28.536805    2626 control.go:73] [engine.Service /emulator/your-service-id f5d2] UpdateConnector(movie-connector): done sources: movie-connector/mutations.gql [2253B] movie-connector/queries.gql [3733B] \n"}}
+[debug] [2025-01-20T14:15:28.541Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-01-20T14:15:28.541Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-01-20T14:15:28.541Z] Starting Data Connect Emulator with command {"binary":"/home/user/.cache/firebase/emulators/dataconnect-emulator-1.7.5","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399","--config_dir=/home/user/data-connect/dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"/home/user/.cache/firebase/emulators/dataconnect-emulator-1.7.5\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399\",\"--config_dir=/home/user/data-connect/dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to \u001b[1mdataconnect-debug.log\u001b[22m"}}
+[debug] [2025-01-20T14:15:28.565Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-01-20T14:15:28.565Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-01-20T14:15:28.597Z] I0120 14:15:28.572930    2632 load.go:37] Reloading schema and connectors...
+I0120 14:15:28.597624    2632 control.go:45] [engine.Service /emulator/your-service-id b0a1] UpdateSchema(): done sources: schema/schema.gql [1566B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.572930    2632 load.go:37] Reloading schema and connectors...\nI0120 14:15:28.597624    2632 control.go:45] [engine.Service /emulator/your-service-id b0a1] UpdateSchema(): done sources: schema/schema.gql [1566B] \n"}}
+[debug] [2025-01-20T14:15:28.625Z] I0120 14:15:28.622480    2632 control.go:73] [engine.Service /emulator/your-service-id b0a1] UpdateConnector(movie-connector): done sources: movie-connector/mutations.gql [2253B] movie-connector/queries.gql [3733B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.622480    2632 control.go:73] [engine.Service /emulator/your-service-id b0a1] UpdateConnector(movie-connector): done sources: movie-connector/mutations.gql [2253B] movie-connector/queries.gql [3733B] \n"}}
+[info] i  dataconnect: Started up Postgres server, listening on {"address":"127.0.0.1","family":"IPv4","port":5432} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Started up Postgres server, listening on {\"address\":\"127.0.0.1\",\"family\":\"IPv4\",\"port\":5432}"}}
+[debug] [2025-01-20T14:15:28.639Z] [Data Connect] Connecting to postgres://127.0.0.1:5432/your-database?sslmode=disable}...
+[debug] [2025-01-20T14:15:28.640Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-01-20T14:15:28.640Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5432/your-database?sslmode=disable","database":"your-database","serviceId":"your-service-id","maxOpenConnections":1}
+[debug] [2025-01-20T14:15:28.647Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5432/your-database?sslmode=disable\",\"database\":\"your-database\",\"serviceId\":\"your-service-id\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
+[debug] [2025-01-20T14:15:28.647Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
+[debug] [2025-01-20T14:15:28.658Z] I0120 14:15:28.658510    2632 codegen.go:82] [connector "movie-connector" javascriptSdk] Generating sources into "/home/user/data-connect/app/src/lib/dataconnect-sdk"
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.658510    2632 codegen.go:82] [connector \"movie-connector\" javascriptSdk] Generating sources into \"/home/user/data-connect/app/src/lib/dataconnect-sdk\"\n"}}
+[debug] [2025-01-20T14:15:28.664Z] I0120 14:15:28.663152    2632 collector.go:107] schema extensions wrote into "/home/user/data-connect/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.663152    2632 collector.go:107] schema extensions wrote into \"/home/user/data-connect/dataconnect/.dataconnect/schema\"\nGenerated sources: prelude.gql [65151B] \n"}}
+[debug] [2025-01-20T14:15:28.665Z] I0120 14:15:28.665535    2632 collector.go:107] connector "movie-connector" javascriptSdk wrote into "/home/user/data-connect/app/src/lib/dataconnect-sdk"
+Generated sources: esm/index.esm.js [196B] esm/package.json [17B] index.cjs.js [237B] package.json [630B] index.d.ts [264B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.665535    2632 collector.go:107] connector \"movie-connector\" javascriptSdk wrote into \"/home/user/data-connect/app/src/lib/dataconnect-sdk\"\nGenerated sources: esm/index.esm.js [196B] esm/package.json [17B] index.cjs.js [237B] package.json [630B] index.d.ts [264B] \n"}}
+[debug] [2025-01-20T14:15:28.669Z] I0120 14:15:28.669381    2632 installsdk.go:48] Package @movie/dataconnect is already installed. Skipping installation
+I0120 14:15:28.669473    2632 load.go:115] Finished reloading
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.669381    2632 installsdk.go:48] Package @movie/dataconnect is already installed. Skipping installation\nI0120 14:15:28.669473    2632 load.go:115] Finished reloading\n"}}
+[debug] [2025-01-20T14:15:28.670Z] I0120 14:15:28.670752    2632 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:28.670752    2632 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
+[debug] [2025-01-20T14:15:30.648Z] [Data Connect] Connecting to postgres://127.0.0.1:5432/your-database?sslmode=disable}...
+[debug] [2025-01-20T14:15:30.649Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-01-20T14:15:30.649Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5432/your-database?sslmode=disable","database":"your-database","serviceId":"your-service-id","maxOpenConnections":1}
+[debug] [2025-01-20T14:15:30.654Z] Frontend message 
+[debug] [2025-01-20T14:15:30.657Z] Backend message AuthenticationResponse
+[debug] [2025-01-20T14:15:30.658Z] Backend message ParameterStatus
+[debug] [2025-01-20T14:15:30.659Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:30.660Z] Frontend message Query
+[debug] [2025-01-20T14:15:36.182Z] Backend message EmptyQuery
+[debug] [2025-01-20T14:15:36.183Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.237Z] Frontend message Query
+[debug] [2025-01-20T14:15:36.245Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.246Z] Backend message DataRow
+[debug] [2025-01-20T14:15:36.247Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.247Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.286Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.288Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.289Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.289Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.290Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.291Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.291Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.291Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.292Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.329Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.331Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.331Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.331Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.333Z] Backend message DataRow
+[debug] [2025-01-20T14:15:36.334Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.334Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.334Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.335Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.372Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.374Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.374Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.374Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.375Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.375Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.375Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.375Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.375Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.415Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.418Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.418Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.418Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.418Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.419Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.419Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.419Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.458Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.461Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.462Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.462Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.464Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.464Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.464Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.464Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.465Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.502Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.530Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.540Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.540Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.541Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.541Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.542Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.542Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.570Z] Frontend message Query
+[debug] [2025-01-20T14:15:36.571Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.572Z] Backend message DataRow
+[debug] [2025-01-20T14:15:36.572Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.572Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.613Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.615Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.615Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.615Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.615Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.616Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.616Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.616Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.616Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.655Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.657Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.657Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.657Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.658Z] Backend message DataRow
+[debug] [2025-01-20T14:15:36.658Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.658Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.658Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.659Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.698Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.700Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.700Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.700Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.701Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.701Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.701Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.701Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.701Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.741Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.743Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.743Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.743Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.744Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.744Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.744Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.744Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.785Z] Frontend message Parse
+[debug] [2025-01-20T14:15:36.786Z] Backend message ParseComplete
+[debug] [2025-01-20T14:15:36.786Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.786Z] Frontend message Describe
+[debug] [2025-01-20T14:15:36.787Z] Backend message ParameterDescriptionMessage
+[debug] [2025-01-20T14:15:36.787Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.787Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.787Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.787Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.827Z] Frontend message Bind
+[debug] [2025-01-20T14:15:36.855Z] Backend message BindComplete
+[debug] [2025-01-20T14:15:36.856Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.856Z] Frontend message Execute
+[debug] [2025-01-20T14:15:36.856Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.857Z] Filtered out a ReadyForQuery.
+[debug] [2025-01-20T14:15:36.857Z] Frontend message Sync
+[debug] [2025-01-20T14:15:36.857Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.896Z] Frontend message Query
+[debug] [2025-01-20T14:15:36.897Z] Backend message RowDescriptionMessage
+[debug] [2025-01-20T14:15:36.898Z] Backend message DataRow
+[debug] [2025-01-20T14:15:36.898Z] Backend message CommandComplete
+[debug] [2025-01-20T14:15:36.898Z] Backend message ReadyForQuery
+[debug] [2025-01-20T14:15:36.939Z] I0120 14:15:36.938387    2632 control.go:45] [engine.Service /emulator/your-service-id 6c74] UpdateSchema(): done sources: schema/schema.gql [1566B] 
+I0120 14:15:36.938656    2632 control.go:73] [engine.Service /emulator/your-service-id 6c74] UpdateConnector(movie-connector): done sources: movie-connector/queries.gql [3733B] movie-connector/mutations.gql [2253B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0120 14:15:36.938387    2632 control.go:45] [engine.Service /emulator/your-service-id 6c74] UpdateSchema(): done sources: schema/schema.gql [1566B] \nI0120 14:15:36.938656    2632 control.go:73] [engine.Service /emulator/your-service-id 6c74] UpdateConnector(movie-connector): done sources: movie-connector/queries.gql [3733B] movie-connector/mutations.gql [2253B] \n"}}
+[debug] [2025-01-20T14:15:36.942Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
+[debug] [2025-01-20T14:15:36.942Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
+[debug] [2025-01-20T14:15:36.942Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5432/your-database?sslmode=disable}
+[debug] [2025-01-20T14:15:36.947Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:36.947Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:36.947Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-20T14:15:36.948Z] > authorizing via signed-in user (markgoho@gmail.com)
+[debug] [2025-01-20T14:15:36.949Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/sites 
+[debug] [2025-01-20T14:15:37.768Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/sites 200
+[debug] [2025-01-20T14:15:37.768Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/sites {"sites":[{"name":"projects/test-data-connect-8c4fb/sites/test-data-connect-8c4fb","defaultUrl":"https://test-data-connect-8c4fb.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-01-20T14:15:37.769Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:37.769Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:37.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-20T14:15:37.769Z] > authorizing via signed-in user (markgoho@gmail.com)
+[debug] [2025-01-20T14:15:37.769Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/webApps/-/config [none]
+[debug] [2025-01-20T14:15:38.186Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/webApps/-/config 200
+[debug] [2025-01-20T14:15:38.186Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb/webApps/-/config {"projectId":"test-data-connect-8c4fb","storageBucket":"test-data-connect-8c4fb.firebasestorage.app","apiKey":"AIzaSyAT1-t5po54B7AEWyv7_4IgZ2UgSBPVToI","authDomain":"test-data-connect-8c4fb.firebaseapp.com","messagingSenderId":"110464901887"}
+[debug] [2025-01-20T14:15:38.194Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:38.194Z] No OAuth tokens found
+[debug] [2025-01-20T14:15:38.195Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-20T14:15:38.195Z] > authorizing via signed-in user (markgoho@gmail.com)
+[debug] [2025-01-20T14:15:38.195Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb [none]
+[debug] [2025-01-20T14:15:38.452Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb 200
+[debug] [2025-01-20T14:15:38.453Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-data-connect-8c4fb {"projectId":"test-data-connect-8c4fb","projectNumber":"110464901887","displayName":"test-data-connect","name":"projects/test-data-connect-8c4fb","resources":{"hostingSite":"test-data-connect-8c4fb"},"state":"ACTIVE","etag":"1_7f576316-98a8-4cfb-94f9-9613946d33fe"}
+[debug] [2025-01-20T14:15:38.454Z] Specified "public" directory "app/dist" does not exist; Deploy to Hosting site "test-data-connect-8c4fb" may fail or be empty.
+[info] i  hosting[test-data-connect-8c4fb]: Serving hosting files from: app/dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mapp/dist\u001b[22m"}}
+[info] ✔  hosting[test-data-connect-8c4fb]: Local server: http://127.0.0.1:5059 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5059\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.14.0.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.14.0.zip..."}}
+[debug] [2025-01-20T14:15:38.469Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.14.0.zip 
+[debug] [2025-01-20T14:15:38.515Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.14.0.zip 200
+[debug] [2025-01-20T14:15:38.515Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.14.0.zip [stream]
+[debug] [2025-01-20T14:15:38.699Z] Data is 3615311
+[debug] [2025-01-20T14:15:38.700Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.700Z] [unzip] Processing entry: client/
+[debug] [2025-01-20T14:15:38.700Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/
+[debug] [2025-01-20T14:15:38.701Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2025-01-20T14:15:38.701Z] [unzip] Processing entry: client/favicon-16x16.png
+[debug] [2025-01-20T14:15:38.701Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.702Z] [unzip] Writing file: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/favicon-16x16.png
+[debug] [2025-01-20T14:15:38.703Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2025-01-20T14:15:38.703Z] [unzip] Processing entry: client/safari-pinned-tab.svg
+[debug] [2025-01-20T14:15:38.703Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.703Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/safari-pinned-tab.svg
+[debug] [2025-01-20T14:15:38.706Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2025-01-20T14:15:38.706Z] [unzip] Processing entry: client/favicon.ico
+[debug] [2025-01-20T14:15:38.706Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.706Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/favicon.ico
+[debug] [2025-01-20T14:15:38.708Z] [unzip] Entry: client/index.html (compressed_size=1363 bytes, uncompressed_size=3071 bytes)
+[debug] [2025-01-20T14:15:38.708Z] [unzip] Processing entry: client/index.html
+[debug] [2025-01-20T14:15:38.708Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.708Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/index.html
+[debug] [2025-01-20T14:15:38.709Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2025-01-20T14:15:38.710Z] [unzip] Processing entry: client/android-chrome-192x192.png
+[debug] [2025-01-20T14:15:38.710Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.710Z] [unzip] Writing file: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/android-chrome-192x192.png
+[debug] [2025-01-20T14:15:38.710Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2025-01-20T14:15:38.711Z] [unzip] Processing entry: client/apple-touch-icon.png
+[debug] [2025-01-20T14:15:38.711Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.711Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/apple-touch-icon.png
+[debug] [2025-01-20T14:15:38.712Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2025-01-20T14:15:38.713Z] [unzip] Processing entry: client/android-chrome-512x512.png
+[debug] [2025-01-20T14:15:38.713Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.713Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/android-chrome-512x512.png
+[debug] [2025-01-20T14:15:38.718Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2025-01-20T14:15:38.719Z] [unzip] Processing entry: client/manifest.json
+[debug] [2025-01-20T14:15:38.719Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.719Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/manifest.json
+[debug] [2025-01-20T14:15:38.721Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2025-01-20T14:15:38.721Z] [unzip] Processing entry: client/robots.txt
+[debug] [2025-01-20T14:15:38.721Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.721Z] [unzip] Writing file: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/robots.txt
+[debug] [2025-01-20T14:15:38.722Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2025-01-20T14:15:38.722Z] [unzip] Processing entry: client/mstile-150x150.png
+[debug] [2025-01-20T14:15:38.722Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.723Z] [unzip] Writing file: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/mstile-150x150.png
+[debug] [2025-01-20T14:15:38.723Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.723Z] [unzip] Processing entry: client/assets/
+[debug] [2025-01-20T14:15:38.724Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/
+[debug] [2025-01-20T14:15:38.724Z] [unzip] Entry: client/assets/index-ClZTY_JS.js.map (compressed_size=2328270 bytes, uncompressed_size=9947004 bytes)
+[debug] [2025-01-20T14:15:38.724Z] [unzip] Processing entry: client/assets/index-ClZTY_JS.js.map
+[debug] [2025-01-20T14:15:38.724Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets
+[debug] [2025-01-20T14:15:38.724Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/index-ClZTY_JS.js.map
+[debug] [2025-01-20T14:15:38.886Z] [unzip] Entry: client/assets/index-ClZTY_JS.js (compressed_size=567195 bytes, uncompressed_size=2035940 bytes)
+[debug] [2025-01-20T14:15:38.886Z] [unzip] Processing entry: client/assets/index-ClZTY_JS.js
+[debug] [2025-01-20T14:15:38.886Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets
+[debug] [2025-01-20T14:15:38.887Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/index-ClZTY_JS.js
+[debug] [2025-01-20T14:15:38.923Z] [unzip] Entry: client/assets/index-BdgySamB.css (compressed_size=35979 bytes, uncompressed_size=298654 bytes)
+[debug] [2025-01-20T14:15:38.924Z] [unzip] Processing entry: client/assets/index-BdgySamB.css
+[debug] [2025-01-20T14:15:38.924Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets
+[debug] [2025-01-20T14:15:38.924Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/index-BdgySamB.css
+[debug] [2025-01-20T14:15:38.931Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.931Z] [unzip] Processing entry: client/assets/extensions/
+[debug] [2025-01-20T14:15:38.931Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/extensions/
+[debug] [2025-01-20T14:15:38.932Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2025-01-20T14:15:38.932Z] [unzip] Processing entry: client/assets/extensions/default-extension.png
+[debug] [2025-01-20T14:15:38.932Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/extensions
+[debug] [2025-01-20T14:15:38.932Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/extensions/default-extension.png
+[debug] [2025-01-20T14:15:38.934Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.934Z] [unzip] Processing entry: client/assets/img/
+[debug] [2025-01-20T14:15:38.934Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/img/
+[debug] [2025-01-20T14:15:38.934Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2025-01-20T14:15:38.935Z] [unzip] Processing entry: client/assets/img/database.png
+[debug] [2025-01-20T14:15:38.935Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/img
+[debug] [2025-01-20T14:15:38.935Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/img/database.png
+[debug] [2025-01-20T14:15:38.938Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.938Z] [unzip] Processing entry: client/assets/provider-icons/
+[debug] [2025-01-20T14:15:38.939Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/
+[debug] [2025-01-20T14:15:38.939Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2025-01-20T14:15:38.939Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_saml.svg
+[debug] [2025-01-20T14:15:38.939Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.940Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_saml.svg
+[debug] [2025-01-20T14:15:38.942Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2025-01-20T14:15:38.942Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_phone.svg
+[debug] [2025-01-20T14:15:38.942Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.943Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_phone.svg
+[debug] [2025-01-20T14:15:38.944Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2025-01-20T14:15:38.944Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2025-01-20T14:15:38.944Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.945Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2025-01-20T14:15:38.947Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2025-01-20T14:15:38.947Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2025-01-20T14:15:38.947Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.948Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2025-01-20T14:15:38.949Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2025-01-20T14:15:38.950Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_apple.svg
+[debug] [2025-01-20T14:15:38.950Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.950Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_apple.svg
+[debug] [2025-01-20T14:15:38.952Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2025-01-20T14:15:38.952Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_github.svg
+[debug] [2025-01-20T14:15:38.952Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.952Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_github.svg
+[debug] [2025-01-20T14:15:38.954Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2025-01-20T14:15:38.954Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2025-01-20T14:15:38.954Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.955Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2025-01-20T14:15:38.956Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2025-01-20T14:15:38.956Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2025-01-20T14:15:38.956Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.957Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2025-01-20T14:15:38.958Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2025-01-20T14:15:38.959Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2025-01-20T14:15:38.959Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.959Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2025-01-20T14:15:38.961Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2025-01-20T14:15:38.961Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2025-01-20T14:15:38.961Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.961Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2025-01-20T14:15:38.963Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2025-01-20T14:15:38.963Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_email.svg
+[debug] [2025-01-20T14:15:38.963Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.964Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_email.svg
+[debug] [2025-01-20T14:15:38.965Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2025-01-20T14:15:38.965Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_google.svg
+[debug] [2025-01-20T14:15:38.966Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.966Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_google.svg
+[debug] [2025-01-20T14:15:38.967Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2025-01-20T14:15:38.968Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2025-01-20T14:15:38.968Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons
+[debug] [2025-01-20T14:15:38.968Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2025-01-20T14:15:38.969Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2025-01-20T14:15:38.970Z] [unzip] Processing entry: client/browserconfig.xml
+[debug] [2025-01-20T14:15:38.970Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.970Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/browserconfig.xml
+[debug] [2025-01-20T14:15:38.972Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2025-01-20T14:15:38.972Z] [unzip] Processing entry: client/favicon-32x32.png
+[debug] [2025-01-20T14:15:38.972Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/client
+[debug] [2025-01-20T14:15:38.972Z] [unzip] Writing file: /home/user/.cache/firebase/emulators/ui-v1.14.0/client/favicon-32x32.png
+[debug] [2025-01-20T14:15:38.973Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:38.973Z] [unzip] Processing entry: server/
+[debug] [2025-01-20T14:15:38.973Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/
+[debug] [2025-01-20T14:15:38.974Z] [unzip] Entry: server/server.mjs.map (compressed_size=296496 bytes, uncompressed_size=1355667 bytes)
+[debug] [2025-01-20T14:15:38.974Z] [unzip] Processing entry: server/server.mjs.map
+[debug] [2025-01-20T14:15:38.974Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server
+[debug] [2025-01-20T14:15:38.974Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/server.mjs.map
+[debug] [2025-01-20T14:15:38.999Z] [unzip] Entry: server/server.mjs (compressed_size=315701 bytes, uncompressed_size=1172682 bytes)
+[debug] [2025-01-20T14:15:38.999Z] [unzip] Processing entry: server/server.mjs
+[debug] [2025-01-20T14:15:38.999Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server
+[debug] [2025-01-20T14:15:39.000Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/server.mjs
+[debug] [2025-01-20T14:15:39.019Z] [unzip] Entry: server/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-01-20T14:15:39.020Z] [unzip] Processing entry: server/assets/
+[debug] [2025-01-20T14:15:39.020Z] [unzip] mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/assets/
+[debug] [2025-01-20T14:15:39.020Z] [unzip] Entry: server/assets/multipart-parser-DGCUZdXu.mjs.map (compressed_size=4791 bytes, uncompressed_size=17918 bytes)
+[debug] [2025-01-20T14:15:39.020Z] [unzip] Processing entry: server/assets/multipart-parser-DGCUZdXu.mjs.map
+[debug] [2025-01-20T14:15:39.021Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/assets
+[debug] [2025-01-20T14:15:39.021Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/assets/multipart-parser-DGCUZdXu.mjs.map
+[debug] [2025-01-20T14:15:39.023Z] [unzip] Entry: server/assets/multipart-parser-DGCUZdXu.mjs (compressed_size=2621 bytes, uncompressed_size=10390 bytes)
+[debug] [2025-01-20T14:15:39.023Z] [unzip] Processing entry: server/assets/multipart-parser-DGCUZdXu.mjs
+[debug] [2025-01-20T14:15:39.023Z] [unzip] else mkdir: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/assets
+[debug] [2025-01-20T14:15:39.024Z] [unzip] deflating: /home/user/.cache/firebase/emulators/ui-v1.14.0/server/assets/multipart-parser-DGCUZdXu.mjs
+[debug] [2025-01-20T14:15:39.027Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
+[debug] [2025-01-20T14:15:39.029Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
+[debug] [2025-01-20T14:15:39.030Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"your-service-id","connectionString":"dbname='your-database' host='127.0.0.1' port='5432' sslmode='disable' dbname='your-database'"}]}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5059 │ n/a                        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Data Connect   │ 127.0.0.1:9399 │ n/a                        │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [20/Jan/2025:14:15:40 +0000] "GET / HTTP/1.1" 404 139 "https://idx.google.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [20/Jan/2025:14:15:40 +0000] \"GET / HTTP/1.1\" 404 139 \"https://idx.google.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}

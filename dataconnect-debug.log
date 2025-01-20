@@ -1,0 +1,13 @@
+I0120 14:15:28.572930    2632 load.go:37] Reloading schema and connectors...
+I0120 14:15:28.597624    2632 control.go:45] [engine.Service /emulator/your-service-id b0a1] UpdateSchema(): done sources: schema/schema.gql [1566B] 
+I0120 14:15:28.622480    2632 control.go:73] [engine.Service /emulator/your-service-id b0a1] UpdateConnector(movie-connector): done sources: movie-connector/mutations.gql [2253B] movie-connector/queries.gql [3733B] 
+I0120 14:15:28.658510    2632 codegen.go:82] [connector "movie-connector" javascriptSdk] Generating sources into "/home/user/data-connect/app/src/lib/dataconnect-sdk"
+I0120 14:15:28.663152    2632 collector.go:107] schema extensions wrote into "/home/user/data-connect/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I0120 14:15:28.665535    2632 collector.go:107] connector "movie-connector" javascriptSdk wrote into "/home/user/data-connect/app/src/lib/dataconnect-sdk"
+Generated sources: esm/index.esm.js [196B] esm/package.json [17B] index.cjs.js [237B] package.json [630B] index.d.ts [264B] 
+I0120 14:15:28.669381    2632 installsdk.go:48] Package @movie/dataconnect is already installed. Skipping installation
+I0120 14:15:28.669473    2632 load.go:115] Finished reloading
+I0120 14:15:28.670752    2632 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0120 14:15:36.938387    2632 control.go:45] [engine.Service /emulator/your-service-id 6c74] UpdateSchema(): done sources: schema/schema.gql [1566B] 
+I0120 14:15:36.938656    2632 control.go:73] [engine.Service /emulator/your-service-id 6c74] UpdateConnector(movie-connector): done sources: movie-connector/queries.gql [3733B] movie-connector/mutations.gql [2253B] 
