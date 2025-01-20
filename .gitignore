@@ -2,6 +2,6 @@
 dataconnect/node_modules/
 .firebase/
 app/node_modules
-.log
+*.log
 app/dist/
 dataconnect/.dataconnect
